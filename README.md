@@ -21,9 +21,10 @@ A Firefox extension that restores the functionality of redirecting reddit subdom
 Simply type any subreddit as a subdomain of reddit.com, for example:
 - `movies.reddit.com` → `old.reddit.com/r/movies`
 - `programming.reddit.com` → `old.reddit.com/r/programming`
+- `news.reddit.com` → `old.reddit.com/r/news`
 
 ## Notes
 
 - The extension only redirects main frame requests to avoid interfering with other content
 - It won't redirect if you're already on old.reddit.com or www.reddit.com
-- This is a temporary extension and will need to be reloaded when Firefox restarts 
+- This is a temporary extension and will need to be reloaded when Firefox restarts
