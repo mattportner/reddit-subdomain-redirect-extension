@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Reddit Subdomain Redirect",
+  "version": "1.0",
+  "description": "Redirects reddit subdomains to their corresponding subreddits on old.reddit.com",
+  "homepage_url": "https://github.com/yourusername/subreddit-subdomain-redirect",
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.reddit.com/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "applications": {
+    "gecko": {
+      "id": "reddit-subdomain-redirect@yourdomain.com"
+    }
+  }
+} 

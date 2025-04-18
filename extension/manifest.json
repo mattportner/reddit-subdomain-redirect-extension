@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Reddit Subdomain Redirect",
+  "version": "1.0",
+  "description": "Redirects reddit subdomains to their corresponding subreddits on old.reddit.com",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.reddit.com/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+} 
